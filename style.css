@@ -1,0 +1,95 @@
+/*
+Theme Name: Desh Protikhon
+Theme URI: https://hasanmia.com/deshprotikhon
+Author: Hasan
+Author URI: http://fb.me/hasanrafi69
+Description: DeshProtikhon is the online Newspaper paper theme in Bangladesh.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: deshprotikhon
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Normalize
+2.0 Accessibility
+3.0 Alignments
+4.0 Clearings
+5.0 Typography
+6.0 Forms
+7.0 Formatting
+8.0 Lists
+9.0 Tables
+10.0 Links
+11.0 Featured Image Hover
+12.0 Navigation
+13.0 Layout
+   13.1 Header
+   13.2 Front Page
+   13.3 Regular Content
+   13.4 Posts
+   13.5 Pages
+   13.6 Footer
+14.0 Comments
+15.0 Widgets
+16.0 Media
+   16.1 Galleries
+17.0 Customizer
+18.0 SVGs Fallbacks
+19.0 Media Queries
+20.0 Print
+--------------------------------------------------------------
+
+<nav class="footer-nav">
+<ul>
+<li> <a href="#"> <i class="fab fa-facebook-square fa-2x"></i></a></li>
+<li> <a href="#"> <i class="fab fa-twitter-square fa-2x"></i></a></li>
+<li> <a href="#"> <i class="fab fa-youtube-square fa-2x"></i></a></li>
+<li> <a href="#"> <i class="fab fa-instagram fa-2x"></i></a></li>
+<li> <a href="#"> <i class="fas fa-rss-square fa-2x"></i></a></li>
+</ul>
+</nav>
+
+  <!--------Footer Section Widget---------->
+     <div class="col-md-3 col-sm-12 col-12">
+          <?php dynamic_sidebar('footer-first');?>
+      </div>
+
+      <div class="col-md-3 col-sm-12 col-12">
+          <?php dynamic_sidebar('footer-secound');?>
+      </div>
+
+      <div class="col-md-3 col-sm-12 col-12">
+          <?php dynamic_sidebar('footer-third');?>
+      </div>
+
+      <div class="col-md-3 col-sm-12 col-12">
+          <?php dynamic_sidebar('footer-fourth');?>
+      </div>
+
+প্রকাশক ও সম্পাদক: মো: রাসেল
+নির্বাহী সম্পাদক : ফাতিমা জাহান, ব্যবস্থাপনা সম্পাদক : মো: সুজানুর রহমান, সহকারী ব্যবস্থাপনা সম্পাদক : মোঃ তৌফিক ইসলাম, সম্পাদক কর্তৃক জিএম টাওয়ার ৪র্থ তলা, ১৫০ গ্রীন রোড থেকে প্রকাশিত ও শামীম প্রিন্টি প্রেস ২১৮ ফকিরাপুল মতিঝিল থেকে মুদ্রিত।
+
+বার্তা ও বানিজ্যিক কার্যালয় : আরএস ভবন (৩য় তলা), ১২০/এ, মতিঝিল বা/এ, ঢাকা - ১০০০।
+
+ফোন : ০১৬২৪-৯২১৪০৬, বার্তা ভিবাগ : ০১৭১৬-৬৯৫৮৩০, ০১৮২৪-৭৭১২০১, বিজ্ঞাপন বিভাগ : ০১৩০৩-৫৭৭১৭৮, সার্কুলেশন : ০১৭২০-১০২৬২০ ।
+
+মোবাইল : ০১৬৭৩-৬৩৩০১৮, E-mail: deshprotikhon@gmail.com, web: deshprotikhon.com
+
+সর্বস্বত্ব স্বত্বাধিকার সংরক্ষিত © ২০১৪-২০২১ দেশপ্রতিক্ষণ.কম
+--------------------------------------------------------------*/
+
+@media only screen and (min-width: 992px) {
+  /* == Dropdown Menu== */
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    width: 30em!important;
+    margin-left: -715%!important;
+}
+}
